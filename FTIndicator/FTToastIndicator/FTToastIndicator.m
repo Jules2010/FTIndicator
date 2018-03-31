@@ -199,12 +199,12 @@
 {
     [self stopDismissTimer];
     
-    CGFloat timeInterval = MAX(self.toastMessage.length * 0.04 + 0.5, 2.0);
-    _dismissTimer = [NSTimer scheduledTimerWithTimeInterval:timeInterval
-                                                     target:self
-                                                   selector:@selector(dismissingToastView)
-                                                   userInfo:nil
-                                                    repeats:NO];
+//     CGFloat timeInterval = MAX(self.toastMessage.length * 0.04 + 0.5, 2.0);
+//     _dismissTimer = [NSTimer scheduledTimerWithTimeInterval:timeInterval
+//                                                      target:self
+//                                                    selector:@selector(dismissingToastView)
+//                                                    userInfo:nil
+//                                                     repeats:NO];
 }
 
 - (void)stopDismissTimer
